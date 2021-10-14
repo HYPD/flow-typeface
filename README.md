@@ -10,11 +10,11 @@ It's not perfect, but neither are your wireframes. Flow has sub-pixels, artifact
 Designing with real content is important, but sometimes we need something more abstract. Flow aims to provide an efficient and flexible way to create abstracted placeholder content.
 
 Flow 1.1 Features:
-• 3 weights/styles
-• Variable width characters
-• Improved line-height (to match SF fonts)
-• Extended Latin character support
-• Cyrillic character support
+* 3 weights/styles
+* Variable width characters
+* Improved line-height (to match SF fonts)
+* Extended Latin character support
+* Cyrillic character support
 
 Copyright Dan Ross 2017
 
