@@ -78,8 +78,45 @@ name = frac;
 );
 fontMaster = (
 {
+alignmentZones = (
+"{470, 2}"
+);
 ascender = 640;
 capHeight = 640;
+customParameters = (
+{
+name = hheaAscender;
+value = 1000;
+},
+{
+name = hheaDescender;
+value = -200;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoAscender;
+value = 1000;
+},
+{
+name = typoDescender;
+value = -200;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1000;
+},
+{
+name = winDescent;
+value = 200;
+}
+);
 descender = -200;
 id = "2906A18E-8512-4CB2-B595-210F914BE02E";
 userData = {
@@ -87,7 +124,7 @@ GSCornerRadius = 73;
 };
 weightValue = 500;
 widthValue = 5;
-xHeight = 320;
+xHeight = 470;
 }
 );
 glyphs = (

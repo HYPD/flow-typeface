@@ -80,6 +80,40 @@ fontMaster = (
 {
 ascender = 640;
 capHeight = 640;
+customParameters = (
+{
+name = hheaAscender;
+value = 1000;
+},
+{
+name = hheaDescender;
+value = -200;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoAscender;
+value = 1000;
+},
+{
+name = typoDescender;
+value = -200;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1000;
+},
+{
+name = winDescent;
+value = 200;
+}
+);
 descender = -200;
 id = "B4B0B87D-EB15-49E9-B9FA-C84652A02B82";
 userData = {
