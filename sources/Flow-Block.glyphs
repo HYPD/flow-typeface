@@ -55,7 +55,7 @@ familyName = "Flow Block";
 featurePrefixes = (
 {
 automatic = 1;
-code = "languagesystem DFLT dflt;\012languagesystem latn dflt;\012languagesystem latn CAT;\012languagesystem latn ROM;\012languagesystem latn MOL;\012languagesystem latn KAZ;\012languagesystem latn TAT;\012languagesystem latn TRK;\012languagesystem latn CRT;\012languagesystem latn AZE;\012";
+code = "languagesystem DFLT dflt;\012\012languagesystem latn dflt;\012languagesystem latn AZE;\012languagesystem latn CRT;\012languagesystem latn KAZ;\012languagesystem latn TAT;\012languagesystem latn TRK;\012languagesystem latn ROM;\012languagesystem latn MOL;\012languagesystem latn CAT;\012";
 name = Languagesystems;
 }
 );
@@ -67,7 +67,7 @@ name = aalt;
 },
 {
 automatic = 1;
-code = "script latn;\012language CAT;\012sub  l' periodcentered' l by ldot;\012sub  L' periodcentered' L by Ldot;\012language ROM;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language MOL;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language KAZ;\012sub i by idotaccent;\012language TAT;\012sub i by idotaccent;\012language TRK;\012sub i by idotaccent;\012language CRT;\012sub i by idotaccent;\012language AZE;\012sub i by idotaccent;\012";
+code = "lookup locl_latn_0 {\012	script latn;\012	language AZE;\012	sub i by idotaccent;\012	language CRT;\012	sub i by idotaccent;\012	language KAZ;\012	sub i by idotaccent;\012	language TAT;\012	sub i by idotaccent;\012	language TRK;\012	sub i by idotaccent;\012} locl_latn_0;\012\012lookup locl_latn_1 {\012	script latn;\012	language ROM;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012	language MOL;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012} locl_latn_1;\012\012lookup locl_latn_2 {\012	script latn;\012	language CAT;\012	sub  l' periodcentered' l by ldot;\012	sub  L' periodcentered' L by Ldot;\012} locl_latn_2;\012";
 name = locl;
 },
 {
@@ -10850,6 +10850,310 @@ rightKerningGroup = o;
 unicode = 0039;
 },
 {
+glyphname = zero.dnom;
+layers = (
+{
+components = (
+{
+name = a;
+}
+);
+layerId = "B4B0B87D-EB15-49E9-B9FA-C84652A02B82";
+width = 572;
+}
+);
+leftMetricsKey = a;
+rightMetricsKey = a;
+},
+{
+glyphname = one.dnom;
+layers = (
+{
+components = (
+{
+name = a;
+}
+);
+layerId = "B4B0B87D-EB15-49E9-B9FA-C84652A02B82";
+width = 572;
+}
+);
+leftMetricsKey = a;
+rightMetricsKey = a;
+},
+{
+glyphname = two.dnom;
+layers = (
+{
+components = (
+{
+name = a;
+}
+);
+layerId = "B4B0B87D-EB15-49E9-B9FA-C84652A02B82";
+width = 572;
+}
+);
+leftMetricsKey = a;
+rightMetricsKey = a;
+},
+{
+glyphname = three.dnom;
+layers = (
+{
+components = (
+{
+name = a;
+}
+);
+layerId = "B4B0B87D-EB15-49E9-B9FA-C84652A02B82";
+width = 572;
+}
+);
+leftMetricsKey = a;
+rightMetricsKey = a;
+},
+{
+glyphname = five.dnom;
+layers = (
+{
+components = (
+{
+name = a;
+}
+);
+layerId = "B4B0B87D-EB15-49E9-B9FA-C84652A02B82";
+width = 572;
+}
+);
+leftMetricsKey = a;
+rightMetricsKey = a;
+},
+{
+glyphname = six.dnom;
+layers = (
+{
+components = (
+{
+name = a;
+}
+);
+layerId = "B4B0B87D-EB15-49E9-B9FA-C84652A02B82";
+width = 572;
+}
+);
+leftMetricsKey = a;
+rightMetricsKey = a;
+},
+{
+glyphname = seven.dnom;
+layers = (
+{
+components = (
+{
+name = a;
+}
+);
+layerId = "B4B0B87D-EB15-49E9-B9FA-C84652A02B82";
+width = 572;
+}
+);
+leftMetricsKey = a;
+rightMetricsKey = a;
+},
+{
+glyphname = eight.dnom;
+layers = (
+{
+components = (
+{
+name = a;
+}
+);
+layerId = "B4B0B87D-EB15-49E9-B9FA-C84652A02B82";
+width = 572;
+}
+);
+leftMetricsKey = a;
+rightMetricsKey = a;
+},
+{
+glyphname = nine.dnom;
+layers = (
+{
+components = (
+{
+name = a;
+}
+);
+layerId = "B4B0B87D-EB15-49E9-B9FA-C84652A02B82";
+width = 572;
+}
+);
+leftMetricsKey = a;
+rightMetricsKey = a;
+},
+{
+glyphname = zero.numr;
+layers = (
+{
+components = (
+{
+name = a;
+}
+);
+layerId = "B4B0B87D-EB15-49E9-B9FA-C84652A02B82";
+width = 572;
+}
+);
+leftMetricsKey = a;
+rightMetricsKey = a;
+},
+{
+glyphname = one.numr;
+layers = (
+{
+components = (
+{
+name = a;
+}
+);
+layerId = "B4B0B87D-EB15-49E9-B9FA-C84652A02B82";
+width = 572;
+}
+);
+leftMetricsKey = a;
+rightMetricsKey = a;
+},
+{
+glyphname = two.numr;
+layers = (
+{
+components = (
+{
+name = a;
+}
+);
+layerId = "B4B0B87D-EB15-49E9-B9FA-C84652A02B82";
+width = 572;
+}
+);
+leftMetricsKey = a;
+rightMetricsKey = a;
+},
+{
+glyphname = three.numr;
+layers = (
+{
+components = (
+{
+name = a;
+}
+);
+layerId = "B4B0B87D-EB15-49E9-B9FA-C84652A02B82";
+width = 572;
+}
+);
+leftMetricsKey = a;
+rightMetricsKey = a;
+},
+{
+glyphname = four.numr;
+layers = (
+{
+components = (
+{
+name = a;
+}
+);
+layerId = "B4B0B87D-EB15-49E9-B9FA-C84652A02B82";
+width = 572;
+}
+);
+leftMetricsKey = a;
+rightMetricsKey = a;
+},
+{
+glyphname = five.numr;
+layers = (
+{
+components = (
+{
+name = a;
+}
+);
+layerId = "B4B0B87D-EB15-49E9-B9FA-C84652A02B82";
+width = 572;
+}
+);
+leftMetricsKey = a;
+rightMetricsKey = a;
+},
+{
+glyphname = six.numr;
+layers = (
+{
+components = (
+{
+name = a;
+}
+);
+layerId = "B4B0B87D-EB15-49E9-B9FA-C84652A02B82";
+width = 572;
+}
+);
+leftMetricsKey = a;
+rightMetricsKey = a;
+},
+{
+glyphname = seven.numr;
+layers = (
+{
+components = (
+{
+name = a;
+}
+);
+layerId = "B4B0B87D-EB15-49E9-B9FA-C84652A02B82";
+width = 572;
+}
+);
+leftMetricsKey = a;
+rightMetricsKey = a;
+},
+{
+glyphname = eight.numr;
+layers = (
+{
+components = (
+{
+name = a;
+}
+);
+layerId = "B4B0B87D-EB15-49E9-B9FA-C84652A02B82";
+width = 572;
+}
+);
+leftMetricsKey = a;
+rightMetricsKey = a;
+},
+{
+glyphname = nine.numr;
+layers = (
+{
+components = (
+{
+name = a;
+}
+);
+layerId = "B4B0B87D-EB15-49E9-B9FA-C84652A02B82";
+width = 572;
+}
+);
+leftMetricsKey = a;
+rightMetricsKey = a;
+},
+{
 glyphname = fraction;
 lastChange = "2017-07-03 04:18:32 +0000";
 layers = (
@@ -13272,6 +13576,20 @@ name = space;
 );
 layerId = "B4B0B87D-EB15-49E9-B9FA-C84652A02B82";
 width = 600;
+}
+);
+},
+{
+glyphname = faour.dnom;
+layers = (
+{
+components = (
+{
+name = a;
+}
+);
+layerId = "B4B0B87D-EB15-49E9-B9FA-C84652A02B82";
+width = 572;
 }
 );
 },
