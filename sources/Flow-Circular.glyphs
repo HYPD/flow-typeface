@@ -1,19 +1,14 @@
 {
 .appVersion = "3099";
-copyright = "Copyright © Dan Ross 2017. All rights reserved.";
+copyright = "Copyright 2020 The Flow Project Authors (https://github.com/HYPD/flow-typeface)";
 customParameters = (
 {
-name = Axes;
-value = (
-{
-Name = Weight;
-Tag = wght;
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: https://scripts.sil.org/OFL";
 },
 {
-Name = Width;
-Tag = wdth;
-}
-);
+name = licenseURL;
+value = "https://scripts.sil.org/OFL";
 }
 );
 date = "2017-05-26 23:15:30 +0000";
@@ -54,7 +49,6 @@ userData = {
 GSCornerRadius = 146.56;
 };
 weightValue = 400;
-widthValue = 5;
 xHeight = 320;
 }
 );
@@ -13886,7 +13880,6 @@ width = 286;
 instances = (
 {
 interpolationWeight = 400;
-interpolationWidth = 5;
 instanceInterpolations = {
 "B5DABC20-4807-4EE8-A10D-13265BFDD766" = 1;
 };

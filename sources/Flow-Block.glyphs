@@ -1,7 +1,15 @@
 {
 .appVersion = "3099";
-copyright = "Copyright © Dan Ross 2017. All rights reserved.";
+copyright = "Copyright 2020 The Flow Project Authors (https://github.com/HYPD/flow-typeface)";
 customParameters = (
+{
+name = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: https://scripts.sil.org/OFL";
+},
 {
 name = Axes;
 value = (
