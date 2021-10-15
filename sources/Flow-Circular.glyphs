@@ -19,7 +19,7 @@ Tag = wdth;
 date = "2017-05-26 23:15:30 +0000";
 designer = "Dan Ross";
 designerURL = "http://danross.co/flow";
-familyName = Flow;
+familyName = "Flow Circular";
 featurePrefixes = (
 {
 automatic = 1;
@@ -48,7 +48,6 @@ fontMaster = (
 {
 ascender = 640;
 capHeight = 640;
-custom = Circular;
 descender = -200;
 id = "B5DABC20-4807-4EE8-A10D-13265BFDD766";
 userData = {
@@ -13891,7 +13890,7 @@ interpolationWidth = 5;
 instanceInterpolations = {
 "B5DABC20-4807-4EE8-A10D-13265BFDD766" = 1;
 };
-name = Circular;
+name = Regular;
 }
 );
 manufacturer = "Dan Ross";

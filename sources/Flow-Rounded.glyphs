@@ -19,7 +19,7 @@ Tag = wdth;
 date = "2017-05-26 23:15:30 +0000";
 designer = "Dan Ross";
 designerURL = "http://danross.co/flow";
-familyName = Flow;
+familyName = "Flow Rounded";
 featurePrefixes = (
 {
 automatic = 1;
@@ -48,7 +48,6 @@ fontMaster = (
 {
 ascender = 640;
 capHeight = 640;
-custom = Rounded;
 descender = -200;
 id = "2906A18E-8512-4CB2-B595-210F914BE02E";
 userData = {
@@ -13379,7 +13378,7 @@ interpolationWidth = 5;
 instanceInterpolations = {
 "2906A18E-8512-4CB2-B595-210F914BE02E" = 1;
 };
-name = Rounded;
+name = Regular;
 weightClass = Medium;
 }
 );
