@@ -32,20 +32,7 @@ value = "https://scripts.sil.org/OFL";
 },
 {
 name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: https://scripts.sil.org/OFL";
-},
-{
-name = Axes;
-value = (
-{
-Name = Weight;
-Tag = wght;
-},
-{
-Name = Width;
-Tag = wdth;
-}
-);
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
 }
 );
 date = "2017-05-26 23:15:30 +0000";
@@ -62,13 +49,18 @@ name = Languagesystems;
 features = (
 {
 automatic = 1;
-code = "feature locl;\012feature frac;\012feature numr;\012feature dnom;\012";
+code = "feature locl;\012feature numr;\012feature dnom;\012feature frac;\012feature sups;\012feature ordn;\012";
 name = aalt;
 },
 {
 automatic = 1;
 code = "lookup locl_latn_0 {\012	script latn;\012	language AZE;\012	sub i by idotaccent;\012	language CRT;\012	sub i by idotaccent;\012	language KAZ;\012	sub i by idotaccent;\012	language TAT;\012	sub i by idotaccent;\012	language TRK;\012	sub i by idotaccent;\012} locl_latn_0;\012\012lookup locl_latn_1 {\012	script latn;\012	language ROM;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012	language MOL;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012} locl_latn_1;\012\012lookup locl_latn_2 {\012	script latn;\012	language CAT;\012	sub  l' periodcentered' l by ldot;\012	sub  L' periodcentered' L by Ldot;\012} locl_latn_2;\012";
 name = locl;
+},
+{
+automatic = 1;
+code = "sub two by twosuperior;\012sub three by threesuperior;\012";
+name = sups;
 },
 {
 automatic = 1;
@@ -84,6 +76,11 @@ name = dnom;
 automatic = 1;
 code = "sub one slash eight by oneeighth;\012sub one slash four by onequarter;\012sub three slash eight by threeeighths;\012sub one slash two by onehalf;\012sub five slash eight by fiveeighths;\012sub three slash four by threequarters;\012sub seven slash eight by seveneighths;\012";
 name = frac;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;\012sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;\012";
+name = ordn;
 }
 );
 fontMaster = (
@@ -129,8 +126,7 @@ id = "B4B0B87D-EB15-49E9-B9FA-C84652A02B82";
 userData = {
 GSCornerRadius = 97.549;
 };
-weightValue = 600;
-widthValue = 5;
+weightValue = 400;
 xHeight = 320;
 }
 );
@@ -8544,6 +8540,36 @@ width = 286;
 unicode = 01C3;
 },
 {
+glyphname = ordfeminine;
+layers = (
+{
+components = (
+{
+name = a;
+}
+);
+layerId = "B4B0B87D-EB15-49E9-B9FA-C84652A02B82";
+width = 572;
+}
+);
+unicode = 00AA;
+},
+{
+glyphname = ordmasculine;
+layers = (
+{
+components = (
+{
+name = a;
+}
+);
+layerId = "B4B0B87D-EB15-49E9-B9FA-C84652A02B82";
+width = 572;
+}
+);
+unicode = 00BA;
+},
+{
 glyphname = "A-cy";
 layers = (
 {
@@ -11164,6 +11190,74 @@ leftMetricsKey = a;
 rightMetricsKey = a;
 },
 {
+glyphname = onesuperior;
+layers = (
+{
+components = (
+{
+name = a;
+}
+);
+layerId = "B4B0B87D-EB15-49E9-B9FA-C84652A02B82";
+width = 572;
+}
+);
+leftMetricsKey = a;
+rightMetricsKey = a;
+unicode = 00B9;
+},
+{
+glyphname = twosuperior;
+layers = (
+{
+components = (
+{
+name = a;
+}
+);
+layerId = "B4B0B87D-EB15-49E9-B9FA-C84652A02B82";
+width = 572;
+}
+);
+leftMetricsKey = a;
+rightMetricsKey = a;
+unicode = 00B2;
+},
+{
+glyphname = threesuperior;
+layers = (
+{
+components = (
+{
+name = a;
+}
+);
+layerId = "B4B0B87D-EB15-49E9-B9FA-C84652A02B82";
+width = 572;
+}
+);
+leftMetricsKey = a;
+rightMetricsKey = a;
+unicode = 00B3;
+},
+{
+glyphname = foursuperior;
+layers = (
+{
+components = (
+{
+name = a;
+}
+);
+layerId = "B4B0B87D-EB15-49E9-B9FA-C84652A02B82";
+width = 572;
+}
+);
+leftMetricsKey = a;
+rightMetricsKey = a;
+unicode = 2074;
+},
+{
 glyphname = fraction;
 lastChange = "2017-07-03 04:18:32 +0000";
 layers = (
@@ -11321,8 +11415,13 @@ unicode = 000D;
 glyphname = .notdef;
 layers = (
 {
+components = (
+{
+name = a;
+}
+);
 layerId = "B4B0B87D-EB15-49E9-B9FA-C84652A02B82";
-width = 600;
+width = 572;
 }
 );
 },
@@ -11739,6 +11838,21 @@ width = 286;
 leftKerningGroup = o;
 rightKerningGroup = o;
 unicode = 002D;
+},
+{
+glyphname = softhyphen;
+layers = (
+{
+components = (
+{
+name = a;
+}
+);
+layerId = "B4B0B87D-EB15-49E9-B9FA-C84652A02B82";
+width = 572;
+}
+);
+unicode = 00AD;
 },
 {
 glyphname = endash;
@@ -12554,6 +12668,21 @@ rightKerningGroup = o;
 unicode = 00A5;
 },
 {
+glyphname = divisionslash;
+layers = (
+{
+components = (
+{
+name = a;
+}
+);
+layerId = "B4B0B87D-EB15-49E9-B9FA-C84652A02B82";
+width = 572;
+}
+);
+unicode = 2215;
+},
+{
 glyphname = plus;
 lastChange = "2017-05-27 03:34:26 +0000";
 layers = (
@@ -12948,6 +13077,21 @@ width = 286;
 leftKerningGroup = o;
 rightKerningGroup = o;
 unicode = 2202;
+},
+{
+glyphname = micro;
+layers = (
+{
+components = (
+{
+name = a;
+}
+);
+layerId = "B4B0B87D-EB15-49E9-B9FA-C84652A02B82";
+width = 572;
+}
+);
+unicode = 00B5;
 },
 {
 glyphname = percent;
@@ -13435,7 +13579,7 @@ unicode = 02BC;
 },
 {
 glyphname = acutemacron;
-lastChange = "2017-07-22 20:57:49 +0000";
+lastChange = "2021-10-15 11:19:02 +0000";
 layers = (
 {
 components = (
@@ -13450,13 +13594,10 @@ width = 600;
 },
 {
 glyphname = ascript;
-lastChange = "2017-07-22 20:57:49 +0000";
+lastChange = "2021-10-15 09:55:43 +0000";
 layers = (
 {
 components = (
-{
-name = space;
-},
 {
 name = space;
 }
@@ -13573,13 +13714,10 @@ width = 600;
 },
 {
 glyphname = upsilonlatin;
-lastChange = "2017-07-22 20:57:49 +0000";
+lastChange = "2021-10-15 09:56:00 +0000";
 layers = (
 {
 components = (
-{
-name = space;
-},
 {
 name = space;
 }
@@ -13652,18 +13790,16 @@ width = 286;
 );
 instances = (
 {
-interpolationWeight = 600;
-interpolationWidth = 5;
+interpolationWeight = 400;
 instanceInterpolations = {
 "B4B0B87D-EB15-49E9-B9FA-C84652A02B82" = 1;
 };
 name = Regular;
-weightClass = Bold;
 }
 );
 manufacturer = "Dan Ross";
 manufacturerURL = "http://danross.co/flow";
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 100;
+versionMinor = 101;
 }
