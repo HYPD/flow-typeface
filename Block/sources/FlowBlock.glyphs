@@ -1681,16 +1681,16 @@ unicode = 012E;
 },
 {
 glyphname = Iotaafrican;
-lastChange = "2017-07-22 20:57:49 +0000";
+lastChange = "2021-10-21 08:17:22 +0000";
 layers = (
 {
 components = (
 {
-name = space;
+name = i;
 }
 );
 layerId = "B4B0B87D-EB15-49E9-B9FA-C84652A02B82";
-width = 600;
+width = 286;
 }
 );
 },
@@ -3563,16 +3563,16 @@ unicode = 0056;
 },
 {
 glyphname = Gammaafrican;
-lastChange = "2017-07-22 20:57:49 +0000";
+lastChange = "2021-10-21 08:17:14 +0000";
 layers = (
 {
 components = (
 {
-name = space;
+name = dot;
 }
 );
 layerId = "B4B0B87D-EB15-49E9-B9FA-C84652A02B82";
-width = 600;
+width = 572;
 }
 );
 },
@@ -5787,16 +5787,16 @@ unicode = 1E2F;
 },
 {
 glyphname = idotaccent;
-lastChange = "2017-07-22 20:53:50 +0000";
+lastChange = "2021-10-21 08:17:03 +0000";
 layers = (
 {
 components = (
 {
-name = space;
+name = i;
 }
 );
 layerId = "B4B0B87D-EB15-49E9-B9FA-C84652A02B82";
-width = 600;
+width = 286;
 }
 );
 },

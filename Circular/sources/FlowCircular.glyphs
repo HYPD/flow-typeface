@@ -1679,16 +1679,16 @@ unicode = 012E;
 },
 {
 glyphname = Iotaafrican;
-lastChange = "2021-10-15 11:22:03 +0000";
+lastChange = "2021-10-21 08:16:32 +0000";
 layers = (
 {
 components = (
 {
-name = space;
+name = i;
 }
 );
 layerId = "B5DABC20-4807-4EE8-A10D-13265BFDD766";
-width = 600;
+width = 286;
 }
 );
 },
@@ -5897,16 +5897,16 @@ unicode = 1E2F;
 },
 {
 glyphname = idotaccent;
-lastChange = "2017-07-22 20:28:57 +0000";
+lastChange = "2021-10-21 08:16:24 +0000";
 layers = (
 {
 components = (
 {
-name = space;
+name = i;
 }
 );
 layerId = "B5DABC20-4807-4EE8-A10D-13265BFDD766";
-width = 600;
+width = 286;
 }
 );
 },
